@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "page": "Home",
+      "component": "Home",
+      "path": "/"
+    },
+    {
+      "page": "Page",
+      "component": "Page",
+      "path": "/page"
+    },
+    {
+      "page": "Page2",
+      "component": "Page",
+      "path": "/page-2"
+    },
+    {
+      "page": "SubRoutes",
+      "component": "Page",
+      "path": "/users/:id"
+    }
+  ]
+}
